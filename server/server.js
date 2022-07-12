@@ -104,6 +104,7 @@ data.post('/sales', async(req,res)=>{
             ProductId : data.Id,
             ProductName:data.Name,
             ProductPrice:data.Rate,
+            Profit:data.Profit,
             ProductQty : data.Quantity,
         }) 
 
